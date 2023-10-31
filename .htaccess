@@ -4,7 +4,7 @@
     Options -Multiviews
     #folder name နဲ့ file name တူနေရင်  folder ကိုခေါ်ချင်ပေမယ့် file ကပွင့်သွားတာမျိုးကိုတား
 
-    RewriteBase /php/
+    RewriteBase /php/php-mvc/
 
     RewriteCond %{REQUEST_FILENAME} !-d 
     #dir ရဲ့ပတ်လမ်းကြောင်းကို output မထုတ်အောင်တား
