@@ -1,13 +1,13 @@
 <?php
 
-class Home{
+class Home extends Controller{
     public function __construct()
     {
         echo "I am constructur of ".__CLASS__. " class <br>";
     }
     public function index()
     {
-        echo "I am index of ".__CLASS__. " class <br>";
+        $this->view("home/index");
     }
     public function show()
     {
